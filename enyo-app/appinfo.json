@@ -1,0 +1,10 @@
+{
+	"id": "com.enyo.myapp",
+	"version": "1.0.0",
+	"vendor": "Enyo Developer",
+	"type": "web",
+	"main": "index.html",
+	"title": "Enyo1App",
+	"icon": "icon.png",
+	"uiRevision": 2
+}
