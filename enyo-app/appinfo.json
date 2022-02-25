@@ -1,10 +1,10 @@
 {
 	"id": "com.enyo.myapp",
 	"version": "1.0.0",
-	"vendor": "Enyo Developer",
+	"vendor": "webOS Archive",
 	"type": "web",
 	"main": "index.html",
-	"title": "Enyo1App",
+	"title": "Enyo1 App",
 	"icon": "icon.png",
 	"uiRevision": 2
 }

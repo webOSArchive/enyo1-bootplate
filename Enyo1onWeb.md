@@ -1,8 +1,8 @@
-# Enyo2 on the Web
+# Enyo on the Web
 
 ## Notes
 
-Enyo2 apps natively run in modern web browsers, with the only caveat being CORS restrictions.
+Enyo apps natively run in modern Chrome or Chromium-based web browsers, with the only caveat being CORS restrictions.
 If you want to cross-target other platforms, particularly webOS, ensure you don't use
 modern web features that won't render on older browsers.
 
@@ -16,9 +16,7 @@ modern web features that won't render on older browsers.
 
 ### DIY (Manual)
 
-- Build your project the Enyo2 way:
-    - `tools/deploy.sh` for *nix or `tools/deploy.bat` for Windows
-- Copy the resulting build output from the Enyo `deploy` folder to your web server's directory of choice
+- Copy the contents of the `enyo-app` folder to your web server's directory of choice
 
 ## Debugging
 

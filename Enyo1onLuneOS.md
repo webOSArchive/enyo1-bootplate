@@ -1,14 +1,10 @@
-# Enyo2 on LuneOS with Cordova
+# Enyo on LuneOS with Cordova
 
 ## Notes
 
 ### Pre-requisites
 
 LuneOS support requires the [webos-ports-sdk for LuneOS](https://github.com/webOS-ports/webos-ports-sdk) which is installed along-side the [legacy webOS SDK](http://sdk.webosarchive.com).
-
-### Cordova
-
-This bootplate includes an old version of Cordova that still works with legacy webOS. If that's the only platform you want to target, you don't need to install the Android SDK or newer Cordova. If you do, however, see the note below about JDK instances.
 
 ### JAVA
 The Android SDK and modern Cordova use a different version of JAVA than the webOS SDK requires. 
@@ -26,12 +22,9 @@ This website describes managing alternatives: [https://www.fosstechnix.com/insta
 
 ### DIY (Manual)
 
-- Set up your project the same way you would set up any other bootplate project.
-- Modify your index.html and JavaScript files as outlined in this blog post: [JavaScript Apps for Open webOS With Enyo and Cordova](OpenWebOSBlog.md)
-- Copy `appinfo.json` from the PhoneGap `'lib/webos/framework'` directory and a cordova JavaScript file from the PhoneGap `'lib/webos/lib'` directory
-- Modify `appinfo.json` for your project and add an icon
-- run `tools\deploy.bat --cordova-webos` or `tools/deploy.sh --cordova-webos` to build your app.
-- Use `lune-install` to install to your webOS device
+- Create your Enyo app by adding to and modifying the contents of the `enyo-app` folder
+- From the `enyo-app` folder, use the command line to run `palm-package`
+- Use `palm-install` to install the resulting ipk on your webOS device over USB.
 
 ## Debugging
 

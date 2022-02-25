@@ -1,13 +1,10 @@
-# EnyoWebbTracker
+# Enyo1 App
 
-James Webb Space Telescope Tracker for Enyo.
-
-![App Icon](icon.png)
+A sample app using Enyo1
 
 ## What is This?
 
-This is an app for the defunct mobile webOS platform, made by Palm and later acquired by HP. It runs on devices like the Palm Pre or Pixi, or the HP
-Pre3 or TouchPad. 
+This is a sample app for the defunct mobile webOS platform, made by Palm and later acquired by HP. It runs on devices like the Palm Pre or Pixi, or the HP Pre3 or TouchPad. 
 
 webOS technology was acquired by LG and repurposed for TVs and IoT devices, but they made significant changes and this app will not run on those platforms.
 

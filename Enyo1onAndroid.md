@@ -1,4 +1,4 @@
-# Enyo2 on Android with Cordova
+# Enyo on Android with Cordova
 
 ## Notes
 
@@ -32,8 +32,8 @@ This website describes managing alternatives: [https://www.fosstechnix.com/insta
 - Add the android platform
     - `cd <folder>` (eg: `hello`)
     - `cordova platform add android`
-- Build your project the Enyo2 way:
-    - `tools/deploy.sh` for *nix or `tools/deploy.bat` for Windows
+- Create your Enyo app by adding to and modifying the contents of the `enyo-app` folder
+- From the parent folder, use the command line to run `./build.sh www`
 - Copy the resulting build output from the Enyo `deploy` folder to the Cordova `www` folder (eg: `hello\www`)
 - Use the `config.xml` included in this project to add the Android namespace and security exeptions
 - Add the security exemption meta tag to your .html files in `www`:

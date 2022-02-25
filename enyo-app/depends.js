@@ -1,4 +1,4 @@
 ﻿enyo.depends(
-	"source/app.js",
-	"css/app.css",
+	"source/myapp.js",
+	"css/myapp.css",
 );

@@ -46,6 +46,21 @@ if [[ $www -eq 0 ]] && [[ $webOS -eq 0 ]] && [[ $android -eq 0 ]] ; then
     exit
 fi
 
+if [ $webOS -eq 1 ]; then
+    echo "Building for LuneOS/webOS..."
+    rm -rf $mydir/bin/*.ipk
+    cd $mydir/enyo-app
+    palm-package .
+    mv $mydir/enyo-app/*.ipk $mydir/bin/
+fi
+
+if [ $www -eq 1 ]; then
+    echo "Building for www..."
+    mkdir $mydir/bin/www -p
+    rm -rf $mydir/bin/www/*
+    cp $mydir/enyo-app/* $mydir/bin/www -R
+fi
+
 if [ $android -eq 1 ]; then
     echo "Building for Android..."
     rm -rf $mydir/bin/*.apk

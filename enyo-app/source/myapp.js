@@ -1,5 +1,5 @@
 ﻿enyo.kind({
-	name: "enyo.app",
+	name: "enyo.myapp",
 	kind: enyo.VFlexBox,
 	components: [
 		{kind: "PageHeader", components: [

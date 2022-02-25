@@ -1,20 +1,17 @@
 ## About
 
-This bootplate is a template for a minimal Enyo2 and Onyx web application.
+This bootplate is a template for a minimal Enyo1 web application.
 You would normally use this to setup your local environment then go and modify the
 files to build your own application.
 
-Enyo2 (aka EnyoJS) was an open-source Javascript framework that had its origins on the Palm/HP TouchPad, but was updated for Open WebOS and other platforms through [2018](http://nightly.enyojs.com/enyo-nightly-20180402014451/sampler/dist/), before being replaced with EnactJS.
-
-This fork stops at version 2.5.1 to maintain compatibility with legacy webOS. You can download a Sampler of its capabilities from the [enyo2-sampler](https://github.com/codepoet80/enyo2-sampler) repo, or view it online via [webOS Archive](http://www.webosarchive.com/enyo2sampler).
+Enyo was an open-source Javascript framework created for the Palm/HP TouchPad, and was later replaced with the cross platform [Enyo2](https://github.com/enyojs/enyo) (aka EnyoJS). While Enyo 1.0 was designed for webOS devices, with a few considerations, apps can run on LuneOS, in Chrome (or Chromium-based) browsers on the web, or with a little help from a Cordova wrapper, on modern Android phones.
 
 You can learn more about legacy webOS at [webOS Archive](http://www.webosarchive.com/) or by exploring my other repos.
 
 ## Downloading
 
-You can use a Git client to clone this repo and then initialize
-submodules. Be aware that you'll need to clone recursively `--recurse-submodules`
-to ensure that all the subfolders are downloaded.
+You can use a Git client to clone this repo and then initialize submodules.
+The entire Enyo library is included in this repo, so you don't have to scrape it off a device.
 
 Remove the `.git` folder to detach your local folder from the bootplate git repo
 so that you can customize the contents for your own app (and add to your own repo)
@@ -26,7 +23,7 @@ Each platform you want to target has its own dependencies and quirks. Check out 
 ## Use
 
 The bootplate provides a folder structure and app template to allow you to develop
-Enyo2 apps for a variety of platforms including legacy webOS, LuneOS, Android and the web.
+Enyo apps for a variety of platforms including legacy webOS, LuneOS, Android and the web.
 
 This project exists to allow apps to run on old *and* new devices, but can't prevent you
 from using modern web features that won't work on older devices -- QA is up to you!
