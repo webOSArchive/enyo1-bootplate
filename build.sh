@@ -49,6 +49,8 @@ fi
 if [ $webOS -eq 1 ]; then
     echo "Building for LuneOS/webOS..."
     rm -rf $mydir/bin/*.ipk
+    rm -rf $mydir/bin/www
+    cp $mydir/cordova-webos.js $mydir/enyo-app/cordova.js -f
     cd $mydir/enyo-app
     palm-package .
     mv $mydir/enyo-app/*.ipk $mydir/bin/
