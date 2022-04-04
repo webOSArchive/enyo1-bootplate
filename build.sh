@@ -60,6 +60,7 @@ if [ $www -eq 1 ]; then
     echo "Building for www..."
     mkdir $mydir/bin/www -p
     rm -rf $mydir/bin/www/*
+    cp $mydir/cordova-www.js $mydir/enyo-app/cordova.js -f
     cp $mydir/enyo-app/* $mydir/bin/www -R
 fi
 
