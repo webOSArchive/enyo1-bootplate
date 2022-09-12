@@ -8,7 +8,7 @@ Enyo was an open-source Javascript framework created for the Palm/HP TouchPad, a
 
 If you want run webOS apps on other browsers (and you really [should stop using Chromium](https://www.theverge.com/2018/1/4/16805216/google-chrome-only-sites-internet-explorer-6-web-standards)), check out the [Enyo2 Bootplate](https://github.com/codepoet80/enyo2-bootplate).
 
-You can learn more about legacy webOS at [webOS Archive](http://www.webosarchive.com/) or by exploring my other repos.
+You can learn more about legacy webOS at [webOS Archive](http://www.webosarchive.org/) or by exploring my other repos.
 
 ## Downloading
 
