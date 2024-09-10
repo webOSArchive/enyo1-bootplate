@@ -6,7 +6,7 @@ files to build your own application.
 
 Enyo was an open-source Javascript framework created for the Palm/HP TouchPad, and was later replaced with the cross platform [Enyo2](https://github.com/enyojs/enyo) (aka EnyoJS). While Enyo 1.0 was designed for webOS devices, with a few considerations, apps can run on LuneOS, in Chrome (or Chromium-based) browsers on the web, or with a little help from a Cordova wrapper, on modern Android phones.
 
-If you want run webOS apps on other browsers (and you really [should stop using Chromium](https://www.theverge.com/2018/1/4/16805216/google-chrome-only-sites-internet-explorer-6-web-standards)), check out the [Enyo2 Bootplate](https://github.com/codepoet80/enyo2-bootplate).
+If you want run webOS apps on other browsers (and you really [should stop using Chromium](https://www.theverge.com/2018/1/4/16805216/google-chrome-only-sites-internet-explorer-6-web-standards)), check out the [Enyo2 Bootplate](https://github.com/webosarchive/enyo2-bootplate).
 
 You can learn more about legacy webOS at [webOS Archive](http://www.webosarchive.org/) or by exploring my other repos.
 
